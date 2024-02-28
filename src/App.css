@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body{
+  font-family: "Inter", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#body-contents{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: #FBFCFD;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#content2-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+
+#related-deals-heading{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #2C384A;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 800px) {
+  #contents-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  #body-contents {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  #content2-container {
+    grid-template-columns: auto auto;
+  }
+
+  #related-deals-heading {
+    font-size: 36px;
+    line-height: 1.2;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 490px) {
+  #contents-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  #body-contents {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  #related-deals-heading {
+    font-size: 7vw; 
+    line-height: 1.1;
+  }
+  #content2-container{
+    grid-template-columns: auto;
   }
 }

@@ -1,0 +1,48 @@
+#header{
+    padding: 1rem;
+    background-color: #212731;
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-input{
+    background-color: #FFFFFF;
+    border: 1px #E1E4E6 solid;
+    height: 2rem;
+    width: 15vw;
+    border-radius: 8px;
+}
+
+#header-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-text{
+    color: #D1D6DA;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+#search-img{
+    position: absolute;
+    left: 2%;
+}
+
+@media(max-width:490px){
+    #header-input{
+        width: 25vw;
+    }
+    .header-text{
+        font-size: 11px;
+    }
+    #header-contents{
+        gap: 2rem;
+    }
+    
+}
