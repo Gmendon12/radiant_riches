@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/radiant_riches/static/css/main.319d9f2e.css",
+    "main.js": "/radiant_riches/static/js/main.46d4310c.js",
+    "static/js/453.338ec3db.chunk.js": "/radiant_riches/static/js/453.338ec3db.chunk.js",
+    "static/media/logo.svg": "/radiant_riches/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/radiant_riches/index.html",
+    "main.319d9f2e.css.map": "/radiant_riches/static/css/main.319d9f2e.css.map",
+    "main.46d4310c.js.map": "/radiant_riches/static/js/main.46d4310c.js.map",
+    "453.338ec3db.chunk.js.map": "/radiant_riches/static/js/453.338ec3db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.319d9f2e.css",
+    "static/js/main.46d4310c.js"
+  ]
+}
