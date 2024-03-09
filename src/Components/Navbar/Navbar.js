@@ -9,7 +9,7 @@ function Navbar() {
         <div id='navbar-contents'>
             <div id='navbar-contents-1'>
             <div className='navbar-links-text'> <img src="images/last-updated.png" className='imgs'  /> <span style={{paddingLeft:'0.5rem'}}> Last updated - February 20, 2022</span></div>
-            <div className='navbar-links-text'> <img src='/images/advertising.png' className='imgs' /><span style={{paddingLeft:'0.5rem'}}> Advertising Disclosure</span></div>
+            <div className='navbar-links-text'> <img src='images/advertising.png' className='imgs' /><span style={{paddingLeft:'0.5rem'}}> Advertising Disclosure</span></div>
             </div>
 
             <div className='navbar-links-text'>
